@@ -7,7 +7,7 @@ using ADOX; //Requires Microsoft ADO Ext. 2.8 for DDL and Security
 
  
 
-namespace CompetencePlus.Outils
+namespace CompetencePlus.Tools
 {
     /// <summary>
     /// Il permet de se connecter avec la base de données et d'exécuter les requêtes SQL
@@ -16,6 +16,7 @@ namespace CompetencePlus.Outils
     {   
         public static OleDbConnection Connection;
         public static OleDbCommand Command;
+        public static String DataBaseName = "db_cplus";
 
         ///  En mode développement la base de données doit être installé dans le chemin suivant "C:\db_cplus\db_cplus.accdb"
         ///  En mode déploiement la base de données doit être installer dans le répertoire projet
@@ -60,76 +61,11 @@ namespace CompetencePlus.Outils
             Connection.Close();
         }
 
-        /// <summary>
-        /// Vérifier l'existence de la base de données
-        /// </summary>
-        /// <returns></returns>
-        public static bool isDabaseExist() {
-            try
-            {
-                Connection = new OleDbConnection(ConnectionString);
-                Connection.Open();
-                Connection.Close();
-                return true;
-            }
-            catch (Exception)
-            {
+        
 
-                return false;
-            }
-           
-        }
+   
 
-        /// <summary>
-        /// Vérificer l'existance d'une table
-        /// </summary>
-        /// <param name="NomTable">le nom de la table à vérifier</param>
-        /// <returns></returns>
-        public static bool isTableExist(string NomTable)
-        {
-            try
-            {
-                String Requete = "select * from " + NomTable;
-                Connection = new OleDbConnection(ConnectionString);
-                Command = Connection.CreateCommand();
-                Command.CommandText = Requete;
-                Connection.Open();
-                Command.ExecuteReader();
-                return true;
-            }
-            catch (Exception)
-            {
-
-                return false; 
-            }
-        }
-
-        static public bool CreateNewAccessDatabase(string fileName)
-        {
-            bool result = false;
-            ADOX.Catalog cat = new ADOX.Catalog();
-            ADOX.Table table = new ADOX.Table();
-            //Create the table and it's fields. 
-            table.Name = "Table1";
-            table.Columns.Append("Field1");
-            table.Columns.Append("Field2");
-            try
-            {
-                cat.Create("Provider=Microsoft.Jet.OLEDB.4.0;" + "Data Source=" + fileName + "; Jet OLEDB:Engine Type=5");
-                cat.Tables.Append(table);
-                //Now Close the database
-                ADODB.Connection con = cat.ActiveConnection as ADODB.Connection;
-                if (con != null)
-                    con.Close();
-                result = true;
-            }
-            catch (Exception ex)
-            {
-                result = false;
-            }
-            cat = null;
-            return result;
-        }
+        
 
 
     }

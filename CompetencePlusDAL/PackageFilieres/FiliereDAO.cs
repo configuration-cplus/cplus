@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Data.OleDb;
 using CompetencePlus.Outils;
+using CompetencePlus.Tools;
 
 namespace CompetencePlus.PackageFilieres
 {

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IncrementationDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>0</Id>
+  <DateCreation>2014-12-27T18:29:06.0014077+01:00</DateCreation>
+  <Titre>alter-table-Prealables</Titre>
+  <Code>2014122718296-alter-table-Prealables</Code>
+  <Increment>alter table Prealables add constraint FK_Prealable_Precision_id  foreign key (Precision_id)
+      references Precisions (id) ;</Increment>
+</IncrementationDB>

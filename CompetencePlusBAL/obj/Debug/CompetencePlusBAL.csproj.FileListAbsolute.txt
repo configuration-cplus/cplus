@@ -47,3 +47,10 @@ C:\Users\ESSARRAJ\Documents\seances_cplus\cplus\CompetencePlusBAL\bin\Debug\Comp
 C:\Users\ESSARRAJ\Documents\seances_cplus\cplus\CompetencePlusBAL\obj\Debug\CompetencePlusBAL.csprojResolveAssemblyReference.cache
 C:\Users\ESSARRAJ\Documents\seances_cplus\cplus\CompetencePlusBAL\obj\Debug\CompetencePlusBAL.dll
 C:\Users\ESSARRAJ\Documents\seances_cplus\cplus\CompetencePlusBAL\obj\Debug\CompetencePlusBAL.pdb
+C:\Users\chabba\Desktop\tachesemploidetemps\cplus\CompetencePlusBAL\bin\Debug\CompetencePlusBAL.dll
+C:\Users\chabba\Desktop\tachesemploidetemps\cplus\CompetencePlusBAL\bin\Debug\CompetencePlusBAL.pdb
+C:\Users\chabba\Desktop\tachesemploidetemps\cplus\CompetencePlusBAL\bin\Debug\CompetencePlusDAL.dll
+C:\Users\chabba\Desktop\tachesemploidetemps\cplus\CompetencePlusBAL\bin\Debug\CompetencePlusDAL.pdb
+C:\Users\chabba\Desktop\tachesemploidetemps\cplus\CompetencePlusBAL\obj\Debug\CompetencePlusBAL.csprojResolveAssemblyReference.cache
+C:\Users\chabba\Desktop\tachesemploidetemps\cplus\CompetencePlusBAL\obj\Debug\CompetencePlusBAL.dll
+C:\Users\chabba\Desktop\tachesemploidetemps\cplus\CompetencePlusBAL\obj\Debug\CompetencePlusBAL.pdb

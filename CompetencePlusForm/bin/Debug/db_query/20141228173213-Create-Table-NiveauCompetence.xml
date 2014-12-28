@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IncrementationDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>0</Id>
+  <DateCreation>2014-12-28T17:32:13.1222065+00:00</DateCreation>
+  <Titre>Create-Table-NiveauCompetence</Titre>
+  <Code>20141228173213-Create-Table-NiveauCompetence</Code>
+  <Increment>Create Table NiveauCompetences
+(
+   id                   AutoIncrement,
+   nom                  varchar(254),
+   code                 int,
+   description          varchar(254),
+   primary key (id)
+);
+</Increment>
+</IncrementationDB>

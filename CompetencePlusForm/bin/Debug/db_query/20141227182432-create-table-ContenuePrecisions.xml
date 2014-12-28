@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IncrementationDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>0</Id>
+  <DateCreation>2014-12-27T18:24:32.9857921+01:00</DateCreation>
+  <Titre>create-table-ContenuePrecisions</Titre>
+  <Code>20141227182432-create-table-ContenuePrecisions</Code>
+  <Increment>create table ContenuePrecisions
+(
+   id                  AutoIncrement,
+   nom                  varchar(254),
+   description          Memo,
+   duree                int,
+   ordre                int,
+   primary key (id)
+);
+</Increment>
+</IncrementationDB>

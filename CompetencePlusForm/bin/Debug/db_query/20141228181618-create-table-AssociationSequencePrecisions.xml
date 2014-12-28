@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IncrementationDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>0</Id>
+  <DateCreation>2014-12-28T18:16:18.998542+00:00</DateCreation>
+  <Titre>create-table-AssociationSequencePrecisions</Titre>
+  <Code>20141228181618-create-table-AssociationSequencePrecisions</Code>
+  <Increment>create table AssociationSequencePrecisions
+(
+   Precision_id         int not null,
+  Sequence_id  int not null,
+   primary key (Precision_id,Sequence_id)
+);</Increment>
+</IncrementationDB>

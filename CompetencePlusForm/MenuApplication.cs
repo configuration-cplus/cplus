@@ -10,6 +10,7 @@ using CompetencePlus.PackageFilieres;
 using CompetencePlus.PackageStagiaires;
 using CompetencePlus.PackageGroupes;
 using CompetencePlus.PackageDB;
+using CompetencePlus.Tools;
 
 namespace CompetencePlus
 {
@@ -86,17 +87,15 @@ namespace CompetencePlus
 
         private void MenuApplication_Load(object sender, EventArgs e)
         {
-            //try
-            //{
-                new IncrementDB_BAO().Initialisation();
-            //}
-            //catch (Exception exception)
-            ////{
-            //    MessageBox.Show(exception.Message);
-            //    this.Close();
-               
-
-            //}
+            try
+            {
+            new DataBaseCreator(MyConnection.DataBaseName).InitialisationDatabase();
+            }
+            catch (Exception exception)
+            {
+                MessageBox.Show(exception.Message);
+                this.Close();
+            }
         }
 
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IncrementationDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>0</Id>
+  <DateCreation>2014-12-28T17:54:10.1055336+00:00</DateCreation>
+  <Titre>alter-table-Salles</Titre>
+  <Code>20141228175410-alter-table-Salles</Code>
+  <Increment>alter table Salles add constraint FK_Salles_CategogiesSalleFormation_id foreign key (CategogiesSalleFormation_id)
+      references CategogiesSalleFormations (id);</Increment>
+</IncrementationDB>

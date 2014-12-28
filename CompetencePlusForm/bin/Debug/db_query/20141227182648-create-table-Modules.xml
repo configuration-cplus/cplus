@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IncrementationDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>0</Id>
+  <DateCreation>2014-12-27T18:26:48.201526+01:00</DateCreation>
+  <Titre>create-table-Modules</Titre>
+  <Code>20141227182648-create-table-Modules</Code>
+  <Increment>create table Modules
+(
+   id                AutoIncrement,
+   
+   Filiere_id           int not null,
+   Precision_id         int,
+   nom                  varchar(254),
+   duree                int,
+   strategieEnseignement Memo,
+   apprentisage         Memo,
+   evaluation           Memo,
+   materiel             Memo,
+   equipement           Memo,
+   competence           Memo,
+   presentation         Memo,
+   description          Memo,
+   primary key (id)
+);</Increment>
+</IncrementationDB>

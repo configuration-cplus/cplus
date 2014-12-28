@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IncrementationDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>0</Id>
+  <DateCreation>2014-12-28T18:04:13.8800676+00:00</DateCreation>
+  <Titre>create-table-Formateur</Titre>
+  <Code>2014122818413-create-table-Formateur</Code>
+  <Increment>create table Formateur
+(
+   Id            AutoIncrement,
+   
+   Nom                  varchar(254),
+   Prenom               varchar(254),
+   Matricule            varchar(254),
+   Adress               Memo,
+   Tel                  varchar(254),
+   Email                varchar(254),
+   primary key (Id)
+);</Increment>
+</IncrementationDB>

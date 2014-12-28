@@ -21,3 +21,10 @@ CompetencePlusDAL/obj/Debug/CompetencePlusDAL.csproj.FileListAbsolute.txt
 CompetencePlusDAL/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
 CompetencePlusForm/obj/x86/Debug/CompetencePlusForm.csproj.FileListAbsolute.txt
 CompetencePlusForm/obj/x86/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+CompetencePlusBAL/obj/Debug/CompetencePlusBAL.csproj.FileListAbsolute.txt
+CompetencePlusDAL/obj/Debug/CompetencePlusDAL.csproj.FileListAbsolute.txt
+CompetencePlusDAL/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+CompetencePlusForm/bin/Debug/db_cplus.ldb
+CompetencePlusForm/bin/Debug/db_cplus_validation.accdb
+CompetencePlusForm/obj/x86/Debug/CompetencePlusForm.csproj.FileListAbsolute.txt
+CompetencePlusForm/obj/x86/Debug/DesignTimeResolveAssemblyReferencesInput.cache

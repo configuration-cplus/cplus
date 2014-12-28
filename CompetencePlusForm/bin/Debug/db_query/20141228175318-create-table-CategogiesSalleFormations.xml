@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IncrementationDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>0</Id>
+  <DateCreation>2014-12-28T17:53:18.6425901+00:00</DateCreation>
+  <Titre>create-table-CategogiesSalleFormations</Titre>
+  <Code>20141228175318-create-table-CategogiesSalleFormations</Code>
+  <Increment>create table CategogiesSalleFormations
+(
+   id                 AutoIncrement,
+   
+   nom                  varchar(254),
+   code                 varchar(254),
+   description          Memo,
+   primary key (id)
+);
+</Increment>
+</IncrementationDB>
